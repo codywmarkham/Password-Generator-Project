@@ -46,9 +46,13 @@ function generatePass(){
          Array.prototype.push.apply(allChars, symArr);
      }
 
+     if(alert("Selected specification types will be applied!")){
+     }
+
      if(allChars.length===0){
          alert("You must select at lease 1 type of characters to generate a password!\nPlease start over.");
      }
+
 
 // Run for loop 
 
@@ -59,11 +63,11 @@ function generatePass(){
             }
      }
      }
-     window.resultPass = alert("All selected specifications have been applied!");
+     
 
      
 // Display the result
-
+    
      document.getElementById("password").innerHTML = resultPass;
 }
 
