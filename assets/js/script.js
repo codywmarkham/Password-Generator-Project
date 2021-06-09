@@ -46,7 +46,7 @@ function generatePass(){
          Array.prototype.push.apply(allChars, symArr);
      }
 
-     if(alert("Selected specification types will be applied!")){
+     if(alert("Selected character specification types will be applied!")){
      }
 
      if(allChars.length===0){
