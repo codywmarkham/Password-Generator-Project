@@ -1,4 +1,4 @@
-// Set static variables
+// static variables
   
 var abcUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var abcUpperArr = abcUpper.split("");
@@ -19,7 +19,7 @@ function generatePass(){
  var allChars = [];
  var resultPass = "";
 
-// Set dynamic variables
+// dynamic variables
 
  var Totlength = prompt("How many characters would you like your password to be?");
 
@@ -50,7 +50,7 @@ function generatePass(){
          alert("You must select at lease 1 type of characters to generate a password!\nPlease start over.");
      }
 
-// Run for loop to use confirmed information and generate password as a result
+// Run for loop 
 
      else{
          for(var i=0; i<Totlength; i++){
@@ -60,6 +60,8 @@ function generatePass(){
      }
      }
      window.resultPass = alert("All selected specifications have been applied!");
+
+     
 // Display the result
 
      document.getElementById("password").innerHTML = resultPass;
