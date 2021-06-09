@@ -5,7 +5,3 @@ body{
 	align-items: center;
 }
 
-
-.btn{
-  <button onclick="generatePass()" type="button" class="btn btn-light" style= "border-radius:20px; background-color: darkred; color:white;">Generate Password</button>
-}
