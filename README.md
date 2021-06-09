@@ -12,5 +12,5 @@ Coded by Cody Markham 2021
 
 https://codywmarkham.github.io/Password-Generator-Project/
 
-Password-Generator-Project\assets\images\Explanation.PNG
+
 
